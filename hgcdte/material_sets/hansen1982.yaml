@@ -1,0 +1,18 @@
+name: "Hansen 1982"
+reference: "Hansen et al., J. Appl. Phys. 53, 1982"
+
+# Bandgap polynomial coefficients for Hg1-xCdxTe [eV]
+Eg_polynomial:
+  E0: -0.302
+  A1: 1.93
+  A2: -0.81
+  A3: 0.832
+  alpha: 5.35e-4   # T-dependence coefficient
+
+# Direct cutoff wavelength polynomial (inverse µm)
+lambda_polynomial:
+  L0: -0.244
+  L1: 1.556
+  L2: -0.65
+  L3: 0.671
+  alpha_lambda: 4.31e-4
